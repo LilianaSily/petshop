@@ -1,2 +1,2 @@
 # petshop
-alimento para mascotas
+Página de alimento para mascotas
