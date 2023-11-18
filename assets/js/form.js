@@ -9,10 +9,10 @@ function simulateAPICall(data) {
     
     console.log("  ", data);
 
-    document.getElementById('responseArea').innerHTML = "  " + data;
+    document.getElementById('responseArea').innerHTML = "  " + data;  
 }
 
-var form = document.getElementById('PedidosPetShop');
+var form = document.getElementById('PedidosPetShop'); 
 form.addEventListener("submit", e => {
   e.preventDefault();
   fetch(form.action, {

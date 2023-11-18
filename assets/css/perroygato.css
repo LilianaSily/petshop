@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap");
+
+
+header picture img {
+  padding-left: 10%;
+  width: 100%;
+  height: auto;
+  max-width: 100%;
+}
+main {
+  display: flex;
+  margin-left: 20em;
+  height: 100%;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 10rem;
+}
+
+
+
+@keyframes fadeIn {
+  to {
+    opacity: 1; /* Al final de la animación, establecer la opacidad en 1 */
+  }
+}
+
+.hidden {
+  display: none;
+}
+
+@media only screen and (max-width: 100%) {
+  header {
+    padding: 5px;
+  }
+
+  header picture img {
+    padding-left: 1em;
+    width: 150px;
+  }
+
+  td {
+    font-size: 12px; /* Ajustar el tamaño del texto para pantallas más pequeñas */
+  }
+}
