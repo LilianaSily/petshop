@@ -1,4 +1,4 @@
-// script.js
+// script.js banner
 document.addEventListener("DOMContentLoaded", function() {
     const promotion = document.querySelector(".promotion");
     const bannerImage = document.querySelector(".banner-image");

@@ -1,4 +1,4 @@
-const menuItems = document.querySelectorAll(".menu-vertical");
+const menuItems = document.querySelectorAll(".menu-vertical a");
 const filas = document.querySelectorAll("tr");
 
 menuItems.forEach(function (item) {

@@ -1,3 +1,5 @@
+
+
 document.addEventListener("DOMContentLoaded", function () {
     var menuButton = document.querySelector('.bt-menu');
     var mainMenu = document.querySelector('header nav');
