@@ -23,15 +23,23 @@
   </header>
 
   <main>
-
+  
+    </div>
     <div id="body">
-
       <div id="content">
         <div class="content">
-
+ <div class="contenedor-formulario">
+      <h2>Deja tu comentario</h2>
+      <form id="myForm">
+        <div><label for="textInput">Comentario</label>
+          <input type="text" id="textInput" name="textInput" required>
         </div>
+        <button type="button" onclick="sendData()">Enviar</button>
+      </form>
+   <br>
+        <div>
         <ul class="section">
-          <li>
+           <li>
             <p>Como gacer que se comporten? </p>
           </li>
           <li>
@@ -40,24 +48,13 @@
           <li>
             <div id="responseArea">
               <p><!-- La respuesta de la API se mostrará aquí --></p>
-            </div>
-          </li>
-        </ul>
-        <div class="paging"> <a class="active" href="#">1</a> <a href="#">2</a> <a href="#">3</a> <a href="#">4</a> <a
-            class="next" href="#">NEXT</a> </div>
+           </li>
+           </ul>
+           </div>
+       
       </div>
     </div>
-
-
-    <div class="contenedor-formulario">
-      <h2>Deja tu comentario</h2>
-      <form id="myForm">
-        <div><label for="textInput">Comentario</label>
-          <input type="text" id="textInput" name="textInput" required>
-        </div>
-        <button type="button" onclick="sendData()">Enviar</button>
-      </form>
-    </div>
+ 
   </main>
 
   <footer>
