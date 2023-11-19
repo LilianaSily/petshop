@@ -136,50 +136,50 @@ header a#logo img {
 	font-size: 14px;
 	text-decoration:none;
 }
-body #content .content ul li span a:hover {
+.content ul li span a:hover {
 	color: #000000;
 }
-body #content .content ul li span a.more {
+.content ul li span a.more {
 	text-decoration:none;
 	color:#FFAD00;
 }
-body #content .content ul li span a.more:hover {
+.content ul li span a.more:hover {
 	text-decoration:none;
 	color:#ff6600;
 }
-body #content .content ul li a {
+.content ul li a {
 	text-decoration:none;
 }
-body #content .content ul li a:hover {
+.content ul li a:hover {
 	color:#F8F3E9;
 }
-body #content .content ul li a.more {
+.content ul li a.more {
 	text-decoration:none;
 	color:#FFAD00;
 }
-body #content .content ul li a.more:hover {
+.content ul li a.more:hover {
 	text-decoration:none;
 	color:#ff6600;
 }
-body #content .content ul li h2 {
+.content ul li h2 {
 	font-family:"Myriad Pro";
 	font-size:20px;
 	margin:0;
 }
-body #content .content ul li p {
+.content ul li p {
 	font-family:"Myriad Pro";
 	font-size:14px;
 	text-align:justify;
 	color:#7f7154;
 	margin:0;
 }
-body #content .content ul li p a {
+.content ul li p a {
 	color:#FF9E01;
 }
-body #content .content ul li p a:hover {
+.content ul li p a:hover {
 	color:#7f7154;
 }
-body #content .content ul li img {
+.content ul li img {
 	border:0;
 	float:left;
 	margin-right:10px;
@@ -245,7 +245,7 @@ button:hover {
 }
 
 
-/**--------------- Start of footer style ------------------**/
+/**--------------- stylo de footer ------------------**/
 
 #footer {
 	background-color:rgb(206, 127, 24);
