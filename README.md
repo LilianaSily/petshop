@@ -15,21 +15,21 @@ hariamos uso posteriormente para incorporar favicon, JS, CSS y stylesheets, y un
 responsive.
 Hasta aquí ya habíamos creado las carpetas para la página principal y sus cuatro
 secciones, luego creamos una carpeta para “media” y otra para “asset” donde iríamos
-incorporando los archivos para css y jS.
-En media cargamos las imágenes que usaremos y el logo. Incorporamos el logo y título al
-head, y un menú para poder dirigir a cada sección y su retorno; esto lo hicimos usando una
+incorporando los archivos para css y jS , tratamos que cada pagina tenga su css y js correpondiente.
+En media cargamos las imágenes que usaremos y el logo. 
+En la pagina principal incorporamos el logo y título al
+header,  un menú para poder dirigir a cada sección y su retorno; esto lo hicimos usando una
 animación en css haciendo hover sobre los ítems del menú.
 Para darle un dinamismo visual, incorporamos un banner en el “body”, haciendo atravesar
  imágenes (incorporadas desde “media”) por el ancho de la página, en esta animación
 utilizamos código de CSS y JS, que lo incorporamos en una carpeta “banner.css” y “style.js”.
-En la página de “Ubicación”, creamos una API https://sheetdb.io/ donde obtenemos los datos
- que los usuarios ingresan de contacto, y  un mapa utilizando iframe de mapa google, 
+Tambien utilizamos una API de mascotas perros y gatos , e incorporamos un boton para actualizar las imagenes de las mascotas
+En la pagina de mascotas incorporamos imagenes con un estilo de boton que a través hipervínculos, nos lleva a las paginas de productos de perro gatos y novedades. Las paginas de perros y gatos tienen un menu para seleccionar tipos de alimentos y con js cada eleccion se muestra en pantalla.
+En la página de “Ubicación”, creamos un formulario y creamos una API https://sheetdb.io/ donde obtenemos los datos que los usuarios ingresan de contacto, y  un mapa utilizando iframe de mapa google, 
  en el que cambiamos el tamaño acorde a lo que necesitaba la página.
 En la página de “Comentarios” agregamos formulario de comentarios con una similitud de api,
 para dar efecto de retorno del texto  en la consola. 
-En la página de “Mascotas”, armamos una página para cada mascota, dirigiéndose a las
-mismas a través hipervínculos, en cada página cargamos los productos, los que se
-seleccionan por un menú que incorporamos a través de Css y funciones de JS.
+
 Incorporamos algo de contenido en la página principal “Nosotros, aplicando un efecto de
 zoom con hover en las imagemes. 
 API: https://sheetdb.io/api/v1/nu5diyqjgddny
