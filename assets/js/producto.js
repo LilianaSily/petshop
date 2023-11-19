@@ -1,6 +1,6 @@
 document.addEventListener("DOMContentLoaded", function () {
   // Get all menu items and product rows
-  var menuItems = document.querySelectorAll('.menu-vertical a');
+  var menuItems = document.querySelectorAll('.menu-v a');
   var productRows = document.querySelectorAll('table tr');
 
   // Add click event listeners to menu items

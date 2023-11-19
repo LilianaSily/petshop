@@ -107,9 +107,38 @@ body #content .content ul li img {
 	margin-right:10px;
 }
 
+.menu-v {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+}
+
+.menu-V h1 {
+    font-size: 24px; /* Ajusta según sea necesario */
+}
+
+.menu-v h2 {
+    margin: 10px 0; /* Espaciado entre elementos */
+}
+
+.menu-v h2 a {
+    text-decoration: none;
+    color: #333; /* Color del texto, ajusta según sea necesario */
+    padding: 10px 20px; /* Ajusta el espaciado interno del botón */
+    border: 1px solid #333; /* Bordes del botón */
+    border-radius: 5px; /* Esquinas redondeadas */
+    display: inline-block; /* Permite aplicar propiedades de bloque sin cambiar la línea */
+}
+
+.menu-v h2 a:hover {
+    background-color: #333; /* Cambia el fondo al pasar el ratón sobre el botón */
+    color: #fff; /* Cambia el color del texto al pasar el ratón sobre el botón */
+}
+
 #container{
   width: min(100%, 1000px);
-  margin: 100px auto;
+  margin: 60px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
@@ -126,8 +155,10 @@ body #content .content ul li img {
 .card img {
   width: 100%;
 }
-
-
+.menu-v h2 a {
+    text-decoration: none;
+	font-size: 20px;
+}
 
 @media only screen and (max-width: 100%) {
   header {
