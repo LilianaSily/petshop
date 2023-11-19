@@ -1,29 +1,29 @@
 function sendData() {
- 
-    var textInputValue = document.getElementById('textInput').value;
 
-     simulateAPICall(textInputValue);
+  var textInputValue = document.getElementById('textInput').value;
+
+  simulateAPICall(textInputValue);
 }
 
 function simulateAPICall(data) {
-    
-    console.log("  ", data);
 
-    document.getElementById('responseArea').innerHTML = "  " + data;  
+  console.log("  ", data);
+
+  document.getElementById('responseArea').innerHTML = "  " + data;
 }
 
-var form = document.getElementById('PedidosPetShop'); 
+var form = document.getElementById('PedidosPetShop');
 form.addEventListener("submit", e => {
   e.preventDefault();
   fetch(form.action, {
-      method : "POST",
-      body: new FormData(document.getElementById("PedidosPetShop")),
+    method: "POST",
+    body: new FormData(document.getElementById("PedidosPetShop")),
   }).then(
-      response => response.json()
+    response => response.json()
   ).then((html) => {
-    
+
     alert('Gracias por tu Mensaje ')
     PedidosPetShop.reset();
-    
+
   });
 });
