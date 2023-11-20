@@ -107,7 +107,7 @@ header a#logo img {
     background-color: rgba(0, 0, 0, 0.7);
     color: #fff;
 }
-
+/**-------------**/
 .content h2 {
 	font-family: "Myriad Pro";
 	margin: 90px 0 0 30px;
@@ -272,3 +272,6 @@ section h1{
 	text-align: center;
 	font-size: 50px;
 }
+
+
+ 

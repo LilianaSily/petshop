@@ -1,16 +1,5 @@
-function sendData() {
 
-  var textInputValue = document.getElementById('textInput').value;
-
-  simulateAPICall(textInputValue);
-}
-
-function simulateAPICall(data) {
-
-  console.log("  ", data);
-
-  document.getElementById('responseArea').innerHTML = "  " + data;
-}
+//------------------------------------//
 
 var form = document.getElementById('PedidosPetShop');
 form.addEventListener("submit", e => {
